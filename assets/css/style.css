@@ -1,0 +1,44 @@
+body {
+  font-family: "Cabin", sans-serif;
+  color: #373a3c;
+  text-align: left;
+}
+
+body * {
+  /* border: 1px solid green; */
+  box-sizing: border-box;
+}
+.logo {
+  font-family: "Lobster", cursive;
+}
+.line {
+  border-top: 2px solid #373a3c;
+}
+.w-fixed {
+  width: 60%;
+}
+/* acomodar indicadores del carousel abajo */
+.carousel-indicators {
+  top: 100px;
+}
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #373a3c;
+}
+.bg-salmon {
+  background-color: #dc3545;
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 12px !important;
+  }
+  #header {
+    text-align: center;
+  }
+  .w-fixed {
+    width: 100%;
+  }
+}
